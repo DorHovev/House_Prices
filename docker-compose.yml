@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  house-prices:
+    build: .
+    volumes:
+      - ${DATA_PATH}:/app/data
+      - ${MODELS_PATH}:/app/saved_models
+      - ${LOGS_PATH}:/app/logs
+    environment:
+      - DATA_PATH=/app/data
+      - MODELS_PATH=/app/saved_models
+      - LOGS_PATH=/app/logs 
