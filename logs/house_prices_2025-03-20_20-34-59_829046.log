@@ -1,0 +1,9 @@
+2025-03-20 20:34:59 | INFO     | __main__:train:20 - Starting training pipeline
+2025-03-20 20:34:59 | INFO     | __main__:train:24 - Loading and preprocessing data
+2025-03-20 20:35:00 | INFO     | __main__:train:29 - Creating and training model
+2025-03-20 20:35:04 | INFO     | __main__:train:52 - Training completed in 4.59 seconds
+2025-03-20 20:35:04 | INFO     | __main__:train:53 - Best iteration: 1453
+2025-03-20 20:35:04 | INFO     | __main__:train:54 - Best validation RMSE: 0.104030
+2025-03-20 20:35:04 | INFO     | __main__:train:55 - Best training RMSE: 0.027673
+2025-03-20 20:35:04 | SUCCESS  | __main__:train:60 - Model successfully saved to C:\Users\user\Desktop\naya\Deplyment\House_Prices\saved_models\house_prices_model.joblib
+2025-03-20 20:35:05 | INFO     | __main__:train:65 - Training history saved to C:\Users\user\Desktop\naya\Deplyment\House_Prices\saved_models\training_history.joblib

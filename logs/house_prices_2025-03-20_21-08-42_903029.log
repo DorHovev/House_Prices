@@ -1,0 +1,3 @@
+2025-03-20 21:08:42 | INFO     | __main__:predict:19 - Starting prediction pipeline
+2025-03-20 21:08:42 | INFO     | __main__:predict:22 - Loading and preprocessing test data
+2025-03-20 21:08:43 | ERROR    | __main__:predict:67 - Error during prediction: Test dataset is empty after preprocessing

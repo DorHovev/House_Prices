@@ -1,0 +1,5 @@
+2025-03-20 21:04:32 | INFO     | __main__:predict:16 - Starting prediction pipeline
+2025-03-20 21:04:32 | INFO     | __main__:predict:19 - Loading test data
+2025-03-20 21:04:33 | INFO     | __main__:predict:24 - Loading model from C:\Users\user\Desktop\naya\Deplyment\House_Prices\saved_models\house_prices_model.joblib
+2025-03-20 21:04:33 | INFO     | __main__:predict:28 - Making predictions
+2025-03-20 21:04:33 | ERROR    | __main__:predict:34 - Error during prediction: Input data must be 2 dimensional and non empty.

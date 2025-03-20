@@ -1,0 +1,6 @@
+2025-03-20 21:18:36 | INFO     | __main__:predict:19 - Starting prediction pipeline
+2025-03-20 21:18:36 | INFO     | __main__:predict:22 - Loading and preprocessing test data
+2025-03-20 21:18:36 | INFO     | __main__:predict:33 - Test data shape: (1459, 311)
+2025-03-20 21:18:36 | INFO     | __main__:predict:37 - Loading model from C:\Users\user\Desktop\naya\Deplyment\House_Prices\saved_models\house_prices_model.joblib
+2025-03-20 21:18:37 | INFO     | __main__:predict:41 - Making predictions
+2025-03-20 21:18:37 | ERROR    | __main__:predict:67 - Error during prediction: Number of features of the model must match the input. Model n_features_ is 280 and input n_features is 311

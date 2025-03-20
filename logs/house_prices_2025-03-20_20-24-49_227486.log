@@ -1,0 +1,4 @@
+2025-03-20 20:24:49 | INFO     | __main__:train:17 - Starting training pipeline
+2025-03-20 20:24:49 | INFO     | __main__:train:20 - Loading and preprocessing data
+2025-03-20 20:24:49 | INFO     | __main__:train:25 - Creating and training model
+2025-03-20 20:24:49 | ERROR    | __main__:train:40 - Error during training: LGBMRegressor.fit() got an unexpected keyword argument 'early_stopping_rounds'

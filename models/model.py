@@ -1,10 +1,25 @@
-import tensorflow_decision_forests as tfdf
-from config import NUM_TREES, MAX_DEPTH
+from lightgbm import LGBMRegressor
+from config.config import NUM_TREES, MAX_DEPTH
 
 def create_model():
-    model = tfdf.keras.GradientBoostedTreesModel(
-        num_trees=NUM_TREES,
-        max_depth=MAX_DEPTH,
-        verbose=1
+    model = LGBMRegressor(
+        n_estimators=3000,
+        max_depth=-1,
+        num_leaves=31,
+        learning_rate=0.01,
+        min_child_samples=20,
+        subsample=0.8,
+        colsample_bytree=0.8,
+        reg_alpha=0.01,
+        reg_lambda=0.01,
+        random_state=42,
+        force_col_wise=True,
+        verbose=10,
+        min_split_gain=0,
+        boosting_type='gbdt',
+        objective='regression',
+        n_jobs=-1,
+        metric='rmse',
+        early_stopping_rounds=100
     )
     return model 

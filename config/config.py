@@ -22,3 +22,4 @@ TARGET_FEATURE = 'SalePrice'
 # Training parameters
 NUM_TREES = 300
 MAX_DEPTH = 8 
+

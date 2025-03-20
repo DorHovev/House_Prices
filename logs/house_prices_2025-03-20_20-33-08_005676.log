@@ -1,0 +1,4 @@
+2025-03-20 20:33:08 | INFO     | __main__:train:18 - Starting training pipeline
+2025-03-20 20:33:08 | INFO     | __main__:train:21 - Loading and preprocessing data
+2025-03-20 20:33:08 | INFO     | __main__:train:26 - Creating and training model
+2025-03-20 20:33:08 | SUCCESS  | __main__:train:38 - Model successfully saved to C:\Users\user\Desktop\naya\Deplyment\House_Prices\saved_models\house_prices_model.joblib

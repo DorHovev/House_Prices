@@ -1,0 +1,3 @@
+2025-03-20 21:13:10 | INFO     | __main__:predict:19 - Starting prediction pipeline
+2025-03-20 21:13:10 | INFO     | __main__:predict:22 - Loading and preprocessing test data
+2025-03-20 21:13:11 | ERROR    | __main__:predict:67 - Error during prediction: Model columns file not found. Please retrain the model first.
